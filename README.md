@@ -90,6 +90,10 @@ This means:
 - vocabulary size = **128256**
 - embedding dimension = **4096**
 
+
+- Inspired by Ed Donner's LLM Engineering course on Udemy
+
+  
 ---
 
 ### Self-attention
@@ -119,3 +123,5 @@ The model is loaded with:
 
 ```python
 AutoModelForCausalLM.from_pretrained(...)
+
+
